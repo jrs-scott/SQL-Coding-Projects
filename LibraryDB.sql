@@ -1,5 +1,3 @@
-USE db_library
-
 CREATE TABLE Library_Branch (
     BranchID INT PRIMARY KEY IDENTITY (100,1) NOT NULL,
     BranchName VARCHAR(100) NOT NULL,
@@ -95,7 +93,7 @@ INSERT INTO Book_Authors(BookID, AuthorName)
 	(7, 'Natalie Gulbis'),
 	(8, 'Wayne Gretzky'),
 	(9, 'Mario Lemieux'),
-	(10, 'Romy Müller'),
+	(10, 'Romy MÃ¼ller'),
 	(11, 'Martina Glagow'),
 	(12, 'Charles Austin'),
 	(13, 'Wayne Gretzky'),
